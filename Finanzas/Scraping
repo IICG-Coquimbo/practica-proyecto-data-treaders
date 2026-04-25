@@ -33,7 +33,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 19,
+   "execution_count": 21,
    "id": "1d373d19-9144-48a0-935e-e90184067e71",
    "metadata": {},
    "outputs": [
@@ -45,7 +45,7 @@
       "==================================================\n",
       "📊 INICIO PROCESO FINANCIERO\n",
       "==================================================\n",
-      "📦 Registros antes: 211\n",
+      "📦 Registros antes: 215\n",
       "💰 Dólar actual: 892.18\n",
       "📰 Noticias obtenidas: 10\n",
       "Noticia repetida, se omite\n",
@@ -61,8 +61,8 @@
       "==================================================\n",
       "📊 RESULTADO FINAL\n",
       "==================================================\n",
-      "Antes: 211\n",
-      "Ahora: 211\n",
+      "Antes: 215\n",
+      "Ahora: 215\n",
       "Nuevos: 0\n",
       "==================================================\n"
      ]
