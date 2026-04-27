@@ -33,7 +33,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 23,
+   "execution_count": 28,
    "id": "1d373d19-9144-48a0-935e-e90184067e71",
    "metadata": {},
    "outputs": [
@@ -45,8 +45,26 @@
       "==================================================\n",
       "📊 INICIO PROCESO FINANCIERO PRO\n",
       "==================================================\n",
-      "📦 Registros antes: 217\n",
-      "❌ Error obteniendo dólar: 'rates'\n"
+      "📦 Registros antes: 228\n",
+      "💰 Dólar (mindicador): 895.07\n",
+      "📰 Noticias obtenidas: 10\n",
+      "✅ Guardado: Precio del dólar en Chile hoy: valor del dólar est...\n",
+      "✅ Guardado: Dólar inicia la semana a la baja en Chile, presion...\n",
+      "⚠️ Ya existe: Dólar hoy en Chile: cae hacia los $920 p\n",
+      "⚠️ Ya existe: Dólar en Chile cae casi $10 en su apertu\n",
+      "⚠️ Ya existe: Dólar cierra a la baja en Chile por meno\n",
+      "⚠️ Ya existe: Nuevo orden, nuevo dólar - EL PAÍS\n",
+      "⚠️ Ya existe: Expertos ven al dólar en torno a $900 en\n",
+      "✅ Guardado: Dólar inicia estable en Chile pese a caída del cob...\n",
+      "⚠️ Ya existe: El dólar se desploma más de $30 y el cob\n",
+      "⚠️ Ya existe: Dólar abre al alza en Chile y se acerca \n",
+      "==================================================\n",
+      "📊 RESULTADO FINAL\n",
+      "==================================================\n",
+      "Antes: 228\n",
+      "Ahora: 231\n",
+      "Nuevos: 3\n",
+      "==================================================\n"
      ]
     }
    ],
