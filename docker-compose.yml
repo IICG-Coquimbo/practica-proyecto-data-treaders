@@ -11,7 +11,7 @@ services:
       - "5900:5900"               # Acceso VNC al escritorio
       - "6080:6080"               # Acceso noVNC desde navegador
       - "8501:8501" 		  # Acceso a Streamlite
-
+      
     volumes:
       - .:/home/jovyan/work       # Monta la carpeta del proyecto dentro del contenedor
 
@@ -56,6 +56,7 @@ services:
     restart: always
     ports:
       - "8081:8081"
+      
     environment:
       - ME_CONFIG_MONGODB_URL=mongodb://database:27017/
       - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
@@ -71,6 +72,7 @@ services:
     restart: always
     ports:
       - "8082:8081"
+      
     environment:
       # REEMPLAZA ESTOS DATOS POR LOS TUYOS REALES DE ATLAS
       - ME_CONFIG_MONGODB_URL=mongodb+srv://usuario:password@cluster0.kthdyh1.mongodb.net/?retryWrites=true&w=majority
@@ -87,6 +89,8 @@ services:
     restart: always
     ports:
       - "8083:80"
+      
+      
     volumes:
       - .:/srv
     networks:

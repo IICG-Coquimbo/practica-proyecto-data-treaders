@@ -63,7 +63,7 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 RUN sed -i 's/\r$//' /usr/local/bin/start-vnc.sh && chmod +x /usr/local/bin/start-vnc.sh
 
 # Puertos del contenedor
-EXPOSE 8888 5900 6080 4040
+EXPOSE 8888 5900 6080 4040 8501
 
 # Inicia supervisord
 # Iniciamos como root para evitar el error de setuid de la sesión anterior
